@@ -18,7 +18,6 @@ body {
   background-color: var(--body-bg-color);
   font-size: 15px;
   font-family: 'Overpass', sans-serif;
-
 }
 
 .content {
@@ -37,8 +36,6 @@ body {
 .heading {
   padding: 40px 0 10px 0;
 }
-
-
 
 .star {
   display: flex;
@@ -115,12 +112,8 @@ button:hover {
   letter-spacing: 2px;
 }
 
-.first {
-  display: none;
-}
-
 .second {
-  display: block;
+  display: none;
   text-align: center;
 }
 
@@ -142,15 +135,12 @@ button:hover {
   border-radius: 25px;
   padding: 10px 15px;
   margin: 20px 0;
-
-
 }
 
 h2 {
   color: white;
   padding: 15px 0;
 }
-
 
 .attribution {
   font-size: 11px;
@@ -192,6 +182,4 @@ h2 {
     letter-spacing: 2px;
 
   }
-
-
 }
