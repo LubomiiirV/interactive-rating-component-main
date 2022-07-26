@@ -25,8 +25,18 @@ body {
   background-color: var(--main-bg-color);
   width: 412px;
   height: 416px;
+  margin: 13% auto;
   border-radius: 25px;
 }
+
+.first {
+  padding: 25px 25px;
+}
+
+.heading {
+  padding: 40px 0 10px 0;
+}
+
 
 
 .star {
@@ -37,6 +47,12 @@ body {
   width: 40px;
   background-color: var(--number-bg-color);
   border-radius: 50%;
+}
+
+.text {
+  padding: 10px 0 25px 0;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .numbers {
@@ -69,7 +85,14 @@ h1 {
 }
 
 p {
+
   color: var(--text-color);
+}
+
+.text {
+  padding: 10px 0 25px 0;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 button {
@@ -83,6 +106,13 @@ button {
 button:hover {
   background-color: white;
   color: var(--orange-color);
+}
+
+.submit {
+  min-width: 360px;
+  margin: 40px 0;
+  padding: 15px 0;
+  letter-spacing: 2px;
 }
 
 .second {
@@ -99,7 +129,7 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 940px) {
   .content {
     max-width: 327px;
     border-radius: 10px;
