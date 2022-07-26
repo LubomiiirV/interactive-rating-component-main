@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(44, 44, 44);
+}
+
+.main {
+  background-color: hsl(213, 19%, 18%);
+  /* position: absolute; */
+  width: 412px;
+  height: 416px;
+  left: 514px;
+  top: 195px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: lightblue;
+  }
+}
