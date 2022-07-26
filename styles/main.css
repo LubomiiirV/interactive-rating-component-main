@@ -25,7 +25,6 @@ body {
   background-color: var(--main-bg-color);
   width: 412px;
   height: 416px;
-  /* margin: auto; */
   border-radius: 25px;
 }
 
@@ -100,7 +99,7 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1440px) {
   .content {
     max-width: 327px;
     border-radius: 10px;
