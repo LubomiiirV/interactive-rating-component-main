@@ -18,6 +18,7 @@ body {
   background-color: var(--body-bg-color);
   font-size: 15px;
   font-family: 'Overpass', sans-serif;
+  text-align: center;
 }
 
 .content {
@@ -31,6 +32,10 @@ body {
 .first,
 .second {
   padding: 25px 25px;
+}
+
+.first {
+  text-align: left;
 }
 
 .heading {
@@ -90,6 +95,7 @@ p {
   padding: 10px 0 25px 0;
   font-size: 18px;
   line-height: 28px;
+
 }
 
 button {
@@ -100,7 +106,8 @@ button {
   padding: 5px 10px;
 }
 
-button:hover {
+button:hover,
+:focus {
   background-color: white;
   color: var(--orange-color);
 }
@@ -112,9 +119,12 @@ button:hover {
   letter-spacing: 2px;
 }
 
+.first {
+  display: block;
+}
+
 .second {
   display: none;
-  text-align: center;
 }
 
 .image {

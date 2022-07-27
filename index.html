@@ -25,7 +25,7 @@
   <body>
     <main class="content">
       <!-- Rating state start -->
-      <div class="first">
+      <div class="first" id="first">
         <div class="star">
           <img class="star-orange" src="./images/icon-star.svg" alt="star" />
         </div>
@@ -39,13 +39,13 @@
           </p>
         </div>
         <div class="numbers">
-          <div class="num">1</div>
-          <div class="num">2</div>
-          <div class="num">3</div>
-          <div class="num">4</div>
-          <div class="num">5</div>
+          <button class="num">1</button>
+          <button class="num">2</button>
+          <button class="num">3</button>
+          <button class="num">4</button>
+          <button class="num">5</button>
         </div>
-        <button class="submit">SUBMIT</button>
+        <button class="submit" onclick="click">SUBMIT</button>
       </div>
 
       <div class="second">
@@ -53,7 +53,9 @@
           <img src="./images/illustration-thank-you.svg" alt="thank-you" />
         </div>
         <div class="selected">
-          <p class="you-selected">You selected 4 out of 5</p>
+          <p class="you-selected">
+            You selected <span class="number"></span> out of 5
+          </p>
         </div>
         <div>
           <h2>Thank you!</h2>
