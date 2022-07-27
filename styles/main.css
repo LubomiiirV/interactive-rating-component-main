@@ -127,6 +127,14 @@ button:hover,
   display: none;
 }
 
+.active {
+  display: block;
+}
+
+.disable {
+  display: none;
+}
+
 .image {
   text-align: center;
   margin: 10px 0;

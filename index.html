@@ -25,7 +25,7 @@
   <body>
     <main class="content">
       <!-- Rating state start -->
-      <div class="first" id="first">
+      <div class="first">
         <div class="star">
           <img class="star-orange" src="./images/icon-star.svg" alt="star" />
         </div>
@@ -39,13 +39,43 @@
           </p>
         </div>
         <div class="numbers">
-          <button class="num">1</button>
-          <button class="num">2</button>
-          <button class="num">3</button>
-          <button class="num">4</button>
-          <button class="num">5</button>
+          <button
+            type="button"
+            class="num"
+            onclick="textPlaceholder.innerHTML = 'You selected out 1 of 5'"
+          >
+            1
+          </button>
+          <button
+            type="button"
+            class="num"
+            onclick="textPlaceholder.innerHTML = 'You selected out 2 of 5'"
+          >
+            2
+          </button>
+          <button
+            type="button"
+            class="num"
+            onclick="textPlaceholder.innerHTML = 'You selected out 3 of 5'"
+          >
+            3
+          </button>
+          <button
+            type="button"
+            class="num"
+            onclick="textPlaceholder.innerHTML = 'You selected out 4 of 5'"
+          >
+            4
+          </button>
+          <button
+            type="button"
+            class="num"
+            onclick="textPlaceholder.innerHTML = 'You selected out 5 of 5'"
+          >
+            5
+          </button>
         </div>
-        <button class="submit" id="submit">SUBMIT</button>
+        <button class="submit">SUBMIT</button>
       </div>
 
       <div class="second">
@@ -53,9 +83,7 @@
           <img src="./images/illustration-thank-you.svg" alt="thank-you" />
         </div>
         <div class="selected">
-          <p class="you-selected">
-            You selected <span class="number"></span> out of 5
-          </p>
+          <p class="you-selected">You selected out of 5</p>
         </div>
         <div>
           <h2>Thank you!</h2>
