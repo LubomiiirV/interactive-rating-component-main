@@ -4,19 +4,19 @@ const first = document.querySelector(".first");
 
 const element = document.querySelector(".numbers");
 
-element.addEventListener("click", function handleClick() {
+const elementList = element.addEventListener("click", function handleClick() {
   element.classList.add("number");
-
   if (element.classList.contains("number")) {
     submit.addEventListener("click", () => {
       second.classList.toggle("active");
       first.classList.toggle("disable");
     });
-  } else {
-    submit.addEventListener("click", () => {
-      alert("choose rating");
-    });
   }
+  // else {
+  //   submit.addEventListener("click", () => {
+  //     alert("choose rating");
+  //   });
+  // }
 });
 
 submit.addEventListener("click", () => {
