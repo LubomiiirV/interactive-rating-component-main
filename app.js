@@ -2,7 +2,7 @@ const submit = document.querySelector(".submit");
 const second = document.querySelector(".second");
 const first = document.querySelector(".first");
 
-const element = document.querySelector("div button");
+const element = document.querySelector(".numbers");
 
 element.addEventListener("click", function handleClick() {
   element.classList.add("number");
